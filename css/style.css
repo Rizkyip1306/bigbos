@@ -1,0 +1,45 @@
+/* Warna berdasarkan Logo BIG */
+:root {
+    --big-blue: #232a5e;   /* Biru Tua Logo */
+    --big-gold: #f1c40f;   /* Emas Logo */
+}
+
+.text-big-blue { color: var(--big-blue); }
+.text-big-gold { color: var(--big-gold); }
+.bg-big-blue { background-color: var(--big-blue); }
+.border-big-gold { border-color: var(--big-gold); }
+
+/* Animasi Hover Card */
+.app-card {
+    transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.app-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 20px 25px -5px rgba(35, 42, 94, 0.1), 0 10px 10px -5px rgba(35, 42, 94, 0.04);
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar { width: 8px; }
+::-webkit-scrollbar-thumb { background: #cbd5e1; border-radius: 10px; }
+#confirmation-modal.hidden {
+    display: none;
+}
+
+#confirmation-modal {
+    animation: fadeIn 0.2s ease-out;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+#confirmation-modal > div {
+    animation: slideUp 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+@keyframes slideUp {
+    from { transform: translateY(20px) scale(0.95); opacity: 0; }
+    to { transform: translateY(0) scale(1); opacity: 1; }
+}
