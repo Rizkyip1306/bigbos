@@ -7,11 +7,11 @@ const appsData = [
         url: "https://bigbos.santriapp.id/"
     },
     {
-        title: "not found",
+        title: "BIGLearn",
         description: "Manajemen terpadu pembelajaran daring (E-Learning) untuk siswa.",
         tags: ["LEARNING", "E-LEARNING"],
         icon: "fa-book-open",
-        url: "https://mentari.bigschool.sch.id"
+        url: "https://biglearn.moodlecloud.com/"
     },
     {
         title: "belum ada",
