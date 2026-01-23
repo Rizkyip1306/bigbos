@@ -14,17 +14,18 @@ const appsData = [
         url: "https://biglearn.moodlecloud.com/"
     },
     {
-        title: "belum ada",
-        description: "Sistem pemeringkatan mahasiswa untuk prestasi akademik.",
-        tags: ["PRESTASI", "RANKING"],
-        icon: "fa-trophy",
-        url: "https://sispema.bigschool.sch.id"
+        title: "BIGBOS VOICE",
+        description: "Layanan pelaporan perundungan rahasia untuk menciptakan lingkungan sekolah yang aman, nyaman, dan saling menghargai bagi seluruh siswa.",
+        tags: ["LAPOR", "SAFETY"],
+        icon: "fa-bullhorn",
+        url: "https://bigbosvoice.pythonanywhere.com/"
     },
     {
-        title: "ada ide?",
-        description: "Sistem sertifikasi profesi dan kompetensi siswa.",
-        tags: ["SERTIFIKASI", "KKNI"],
-        icon: "fa-certificate",
-        url: "https://lsp.bigschool.sch.id"
+        title: "BIG Tahfiz",
+        description: "Pantau perkembangan hafalan Al-Qur'an siswa secara real-time, mulai dari setoran harian, muraja'ah, hingga target kelulusan..",
+        tags: ["AL-QURAN", "PROGRES"],
+        icon: "fa-quran",
+        url: "https://alhafizh.santridigital.net/alhafizh/"
     }
 ];
+
